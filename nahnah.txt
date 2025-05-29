@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoMonnaie - Tout savoir sur la crypto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CryptoMonnaie</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#news">Actualités</a></li>
+                <li><a href="#cryptos">Cryptos Populaires</a></li>
+                <li><a href="#prices">Prix en temps réel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction -->
+        <section id="intro">
+            <h2>Qu'est-ce que la crypto-monnaie ?</h2>
+            <p>La crypto-monnaie est une forme de monnaie numérique basée sur des technologies de cryptographie pour sécuriser les transactions. Les cryptos comme le Bitcoin et l'Ethereum ont transformé la manière dont nous échangeons des biens et des services.</p>
+        </section>
+
+        <!-- Actualités -->
+        <section id="news">
+            <h2>Dernières Actualités sur la Crypto</h2>
+            <ul>
+                <li><a href="#">Bitcoin atteint un nouveau sommet historique</a></li>
+                <li><a href="#">Ethereum 2.0 et ses implications pour le marché</a></li>
+                <li><a href="#">La régulation des cryptos en Europe : ce que vous devez savoir</a></li>
+            </ul>
+        </section>
+
+        <!-- Cryptos populaires -->
+        <section id="cryptos">
+            <h2>Cryptos Populaires</h2>
+            <div class="crypto-list">
+                <div class="crypto-item">
+                    <h3>Bitcoin (BTC)</h3>
+                    <p>Le Bitcoin est la première crypto-monnaie décentralisée, lancée en 2009 par une personne ou un groupe sous le pseudonyme de Satoshi Nakamoto.</p>
+                </div>
+                <div class="crypto-item">
+                    <h3>Ethereum (ETH)</h3>
+                    <p>Ethereum est une plateforme décentralisée qui permet de créer des applications décentralisées (dApps) grâce à ses contrats intelligents.</p>
+                </div>
+                <div class="crypto-item">
+                    <h3>Ripple (XRP)</h3>
+                    <p>Ripple est à la fois une crypto-monnaie et une technologie permettant de réaliser des transactions financières en temps réel.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prix en temps réel -->
+        <section id="prices">
+            <h2>Prix en Temps Réel des Cryptos</h2>
+            <div id="crypto-prices">
+                <p>Chargement des prix...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 CryptoMonnaie - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
